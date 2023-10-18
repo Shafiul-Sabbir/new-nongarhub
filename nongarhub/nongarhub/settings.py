@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'nongarhub.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'new table',
-        'USER': 'postgres',
-        'PASSWORD': '12345678',
-        'HOST': 'localhost',
+        'NAME': 'verceldb',
+        'USER': 'default',
+        'PASSWORD': 'eX3NlWgPQ7Ho',
+        'HOST': 'ep-plain-bread-85223729.ap-southeast-1.postgres.vercel-storage.com',
         'PORT': '5432'
         
     }
